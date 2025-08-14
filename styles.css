@@ -2,6 +2,10 @@ h1 {
   text-decoration: underline;
   text-align: center;
 }
+hr {
+  margin: 5ch;
+}
+
 .line {
   display: flex;
   flex-direction: row;
@@ -30,13 +34,19 @@ h1 {
 .stretchlast :first-child {
   flex-grow: 0;
   font-weight: bold;
+  width: attr(data-width ch, "auto");
 }
 
 .stretchlast :last-child {
   flex-grow: 1;
+}
+.underline {
   border-bottom: solid 1px black;
 }
 
+.spechial {
+  margin-top: auto;
+}
 .narrow {
 }
 
