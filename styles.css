@@ -2,10 +2,6 @@ h1 {
   text-decoration: underline;
   text-align: center;
 }
-hr {
-  visibility: hidden;
-  padding: 2ch;
-}
 .line {
   display: flex;
   flex-direction: row;

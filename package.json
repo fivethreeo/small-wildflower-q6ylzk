@@ -14,5 +14,8 @@
   "license": "MIT",
   "devDependencies": {
     "serve": "11.2.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
   }
 }
