@@ -30,7 +30,7 @@ hr {
 }
 
 .tabstop > * {
-  padding: 1ch;
+  padding: 0.4ch 1ch;
   font-size: large;
 }
 
